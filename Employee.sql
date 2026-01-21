@@ -1,4 +1,3 @@
-
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -143,4 +142,3 @@ UPDATE Employee SET Age+=1, salary +=5000 WHERE FirstName ='Ginger' AND lastname
 UPDATE employee SET title = 'Engineer'WHERE title = 'Programmer';
 UPDATE employee SET salary = salary + 3500 WHERE salary < 30000;
 UPDATE employee SET salary = salary * 0.85 WHERE salary > 35500;
-
